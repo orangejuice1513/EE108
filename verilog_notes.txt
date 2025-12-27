@@ -1,0 +1,16 @@
+& //and
+~ //not
+| //or 
+
+module example(input a, input b, input c, output f);
+    wire w; // driven by something, doesn't store memory 
+    reg r; // holds a value until u tell it to change  
+    
+    //1 wire = 1 bit 
+    //brackets: how many wires in one signal 
+    // [Most_Significant_Bit : Least_Significant_Bit]
+    input wire [3:0] number, //group of 4 wires w indices 3, 2, 1, 0
+    
+    assign //combinational logic: happens instantly and continously 
+
+endmodule 
